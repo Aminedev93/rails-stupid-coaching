@@ -1,0 +1,12 @@
+<div class="text-center">
+  <div class="container col-6">
+    <h1>Stupid Coaching</h1>
+    <p class="ask-question"><strong>Ask The Coach Anything :</strong></p>
+    <form action="/answer" data-turbo="false">
+      <div class="ask-bar">
+        <input type="text" class="form-control" name="question" value="<%= params[:question] %>" placeholder="Ask the Question !!">
+        <input class="btn btn-primary" type="submit" value="Ask!">
+      </div>
+    </form>
+  </div>
+</div>
